@@ -2,39 +2,58 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <title>Tienda Online</title>
+  <title>Healthy Pc</title>
   <meta name="viewport" content="width=device-width, user-scalable=1.0, minium-scale=1.0">
   <link rel="stylesheet" href="css.css">
   <link rel="stylesheet" 
   href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
 </head>
-<body>
-  <header class="main-header">
+  <body>
+    <header class="main-header">
       <div class="container container--flex">
-          <div class="main-container__container">
-              <h1 class="main-header__title">Healty pc</h1>
-              <span class="icon-menu fas fa-bars" id="btn-menu"></span>
-              <nav class="main-nav" id="main-nav"> 
-                <ul class="menu">
-                  <li class="menu__item"><a href="" class="menu__link">TIENDA</a></li>
-                  <li class="menu__item"><a href="" class="menu__link">PRODUCTOS</a></li>
-                  <li class="menu__item"><a href="" class="menu__link">LISTA DE PRECIOS</a></li>
-                  <li class="menu__item"><a href="" class="menu__link">NOSOTROS</a></li>
-                  <li class="menu__item"><a href="" class="menu__link">CONTACTANOS</a></li>
-                </ul>
-              </nav>
-            </div>
-            <div class="main-header__container">
-              <span class="main-header__txt">Si necesitas ayuda</span>
-              <p class="main-header__txt"><i class="fas fa-phone"></i> Llama 12 3456789123</p>
+        <div class="main-container__container">
+          <h1 class="main-header__title">Healty pc</h1>
+          <span class="icon-menu fas fa-bars" id="btn-menu"></span>
+          <nav class="main-nav" id="main-nav"> 
+            <ul class="menu">
+              <li class="menu__item"><a href="" class="menu__link">TIENDA</a></li>
+              <li class="menu__item"><a href="" class="menu__link">PRODUCTOS</a></li>
+              <li class="menu__item"><a href="" class="menu__link">LISTA DE PRECIOS</a></li>
+              <li class="menu__item"><a href="" class="menu__link">NOSOTROS</a></li>
+              <li class="menu__item"><a href="" class="menu__link">CONTACTANOS</a></li>
+            </ul>
+          </nav>
               </div>
-              <div class="main-header__container">
-                <i class="fas fa-user"></i>
-                <a href="">My cart<i class="fas fa-shopping-cart"></i></a>
-                <input type="search" class="main-header__input" placeholder="Buscar productos"><i class="fas fa-search"></i>
-          </div>
+        <div class="main-header__container">
+          <span class="main-header__txt">Si necesitas ayuda</span>
+          <p class="main-header__txt"><i class="fas fa-phone"></i> Llama +57 3022163198</p>
         </div>
-  </header>
-
-</body>
+        <div class="main-header__container">
+          <i class="fas fa-user"></i>
+          <a href=""class="main-header__btn">My cart<i class="fas fa-shopping-cart"></i></a>
+          <input type="search" class="main-header__input" placeholder="Buscar productos"><i class="fas fa-search"></i>
+        </div>
+      </div>
+    </header>
+    <div class="container-slider">
+      <div class="slider" id="slider">
+        <div class="slider__section">
+          <img src="Imagenes/1.jpg" alt="" class="slider__img">
+        </div>
+        <div class="slider__section">
+          <img src="Imagenes/2.jpg" alt="" class="slider__img">
+        </div>
+        <div class="slider__section">
+          <img src="Imagenes/3.jpg" alt="" class="slider__img">
+        </div>
+        <div class="slider__section">
+          <img src="Imagenes/4.jpg" alt="" class="slider__img">
+        </div>
+      </div>
+      <div class="slider__btn slider__btn--right" id="btn-right">&#62;</div>
+      <div class="slider__btn slider__btn--left" id="btn-left">&#60;</div>
+    </div>
+    <script type = "text / typescript"></script>
+    <script src="js.js"></script>
+  </body>
 </html>
